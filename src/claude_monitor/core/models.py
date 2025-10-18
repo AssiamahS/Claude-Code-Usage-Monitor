@@ -29,6 +29,7 @@ class UsageEntry:
     model: str = ""
     message_id: str = ""
     request_id: str = ""
+    keyword: Optional[str] = None
 
 
 @dataclass
